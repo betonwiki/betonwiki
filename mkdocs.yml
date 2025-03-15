@@ -1,1 +1,18 @@
-site_name: My Docs
+site_name: BetonWiki
+
+theme:
+#  name: readthedocs
+  name: material
+#  name: mkdocs
+  language: cs
+  features:
+    - navigation.tabs  # Adds main tabs
+    - navigation.sections  # Creates collapsible sections
+    - navigation.expand  # Keeps sidebar expanded
+    - navigation.instant  # Instant navigation without full page reload
+    - navigation.tracking  # Highlights the active section
+
+#nav:
+#  - Home: index.md
+#  - Průřez:
+#      - Krytí: obecne/kryti.md
