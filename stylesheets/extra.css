@@ -11,9 +11,8 @@
     margin-top: 0; /* Removes the space before paragraphs */
 }
 
-.align-right {
-    float: right;
-}
-.clearfix {
-    overflow: auto;
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
