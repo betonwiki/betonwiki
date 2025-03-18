@@ -2,8 +2,8 @@ site_name: BetonPortal
 
 theme:
 #  name: readthedocs
-  name: material
-#  name: mkdocs
+#  name: material
+  name: mkdocs
   language: cs
   features:
     - navigation.tabs  # Adds main tabs
