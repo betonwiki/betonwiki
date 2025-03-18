@@ -3,7 +3,9 @@ site_name: BetonPortal
 theme:
 #  name: readthedocs
 #  name: material
-  name: mkdocs
+#  name: mkdocs
+  name: lantana  # https://pawamoy.github.io/mkdocs-gallery/themes/lantana/
+#  name: cosmo  # https://mkdocs.github.io/mkdocs-bootswatch/
   language: cs
   features:
     - navigation.tabs  # Adds main tabs
@@ -12,11 +14,13 @@ theme:
     - navigation.instant  # Instant navigation without full page reload
     - navigation.tracking  # Highlights the active section
 
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
 extra_javascript:
+  - javascripts/custom_js.js
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js

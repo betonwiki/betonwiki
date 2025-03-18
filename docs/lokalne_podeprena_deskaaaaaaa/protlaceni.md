@@ -4,4 +4,4 @@ _Autor: Jan Novák_
 _Datum poslední změny: 25.11.2024_
 
 ## Účinná výška desky ve smyku
-Viz [účinná výška desky](../obecne/ucinna_vyska#ucinna-vyska-desky).
+a
